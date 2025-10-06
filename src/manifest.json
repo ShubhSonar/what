@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "What? 🤔",
+    "version": "1.0",
+    "description": "Your critical quesitoning tool.",
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "<all_urls>"
+            ],
+            "js": ["content.js", "purify.min.js"]
+        }
+    ]
+}
