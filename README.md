@@ -19,7 +19,18 @@ What? 🤔 is a Chrome extension designed to enhance your critical thinking proc
 4.  **Generate Questions:** ``What? 🤔`` action will generate a greeting message, an initial explanation and critical questions based on your selection. 
 5.  **Explore Further:** Click the ``Search`` button next to each question for instant results.
 
-## Example Use Cases
+## Important Considerations & Setup:
+
+- This is an experimental extension leveraging the Gemini Nano API, which may have device compatibility limitations. Please ensure your device meets the requirements outlined in chrome://flags.
+- Initially runs may take a few minutes or long time to return a response as it downloads the Gemini Nano model file.
+- Please enable the "PROMPT API for Gemini Nano (multi‑lingual)" setting in Chrome's experimental features (chrome://flags).
+- For optimal performance, consider enabling the "optimization guide on device" flag. (See chrome://flags for details.)
+- Check the model status at chrome://on-device-internals
+- I recommend using this extension initially for personal purposes on non-production devices – as noted in chrome://flags.
+
+This extension will significantly enhance your research & learning process 😊
+
+## A few sample use cases to start with
 
 *   **Deep Dive into Articles:** Uncover underlying assumptions and potential biases in news articles or blog posts.
 *   **Code Comprehension:**  Question code snippets to understand their logic, edge cases, and security implications.
